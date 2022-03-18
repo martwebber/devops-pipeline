@@ -1,4 +1,4 @@
-FROM alpine:3.14
+FROM python:3.9
 ADD . /devops-pipeline
 WORKDIR /devops-pipeline
 RUN apt-get update
